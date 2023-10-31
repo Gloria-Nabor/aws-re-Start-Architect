@@ -2,7 +2,7 @@
 Repositorio de Cloud Computing - AWS re/Start 
 Amazon Web Services Bootcamp en colaboración CodingDogo
 
-# Información general sobre los laboratorio
+# Información general sobre los laboratorios
 
 # python-cloud9
 
