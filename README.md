@@ -267,6 +267,10 @@ Este ejercicio reforzó los conceptos de programación de Python que se abordan 
 
 Ha trabajado con el tipo de dato de lista y ha aprendido sobre la compatibilidad de Python con la combinación de tipos de datos en una declaración de lista.
 
+# Files: 
+
+    *    hello-world.py     Lab. #1 - 5
+
 # Lab. #6: Trabajo con tipos de datos compuestos
 
 Un tipo de datos compuesto es cualquier tipo de datos que comprende tipos de datos primitivos. Si le gusta la comida, puede imaginar un tipo de datos compuesto como si fuera turducken, un plato que consiste en pavo relleno con pato que, a su vez, está relleno con pollo. En este laboratorio, creará un tipo de datos que consiste en una cadena que está en un diccionario y que, a su vez, se encuentra en una lista.
@@ -388,6 +392,10 @@ Regrese al script en Python y escriba el siguiente código:
 Revise una vez más el código que lee los datos tabulares del archivo CSV. Comprender esta sección del código es fundamental para este ejercicio.
 Ha trabajado con tipos de datos compuestos en Python.
 
+# Files: 
+    *    car_fleet.csv
+    *    program-1.py     
+
 # Lab. #7: Trabajo con condicionales
 
 Se denomina instrucción condicional a una sección de código que compara dos fragmentos de información. Puede utilizar condicionales para crear diferentes rutas a través del programa. Utilizará los operadores de comparación para escribir un programa que tome decisiones.
@@ -449,7 +457,10 @@ Nota: Las instrucciones if, elif y else permiten que se ejecute solo una ruta a 
 Como puede ver, cada vez que se ha utilizado el programa se han obtenido resultados ligeramente diferentes. Estas diferencias demuestran el poder de los condicionales.
 Ha escrito un script de Python que utiliza las instrucciones if, elif y else.
 
-# Trabajo con bucles
+# Files: 
+    *    program-2.py
+
+# Lab. #8: Trabajo con bucles
 
 Un bucle es un segmento de código que se repite. Aprenderá dos tipos de bucles: el bucle while y el bucle for.
 
@@ -546,3 +557,6 @@ Confirme que el script se ejecuta de forma correcta y que la salida se muestra s
 Aquí hay una explicación de lo que sucedió en esas dos líneas. La instrucción for utiliza las palabras clave for … in para indicar a la computadora que recorra la lista. La función range() genera una lista. La función range() toma un número inicial y un número final, pero el número final no está incluido. Por lo tanto, pasa 11 para que la función deje de contar en 10. La letra x actúa como una variable. Cada vez que se ejecuta el bucle, la variable x se asigna a la siguiente variable en el bucle y se muestra en la pantalla.
 
 ¡Felicitaciones! Ha trabajado con los bucles while y for en Python.
+
+# Files: 
+    *    program-3.py y for-loop.py
