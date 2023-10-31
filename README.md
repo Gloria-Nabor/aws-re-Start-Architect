@@ -230,7 +230,7 @@ Regrese al script en Python y escriba el siguiente código:
 
     Utilice la función type() para escribir el tipo de dato en el shell: print(type(myFavoriteFruitDictionary))
   
-# Acceso al diccionario por nombre
+*Acceso al diccionario por nombre
 
 En esta actividad, en lugar de utilizar números, recurrirá al nombre de las personas para acceder a su fruta favorita.
 
@@ -240,7 +240,7 @@ En esta actividad, en lugar de utilizar números, recurrirá al nombre de las pe
 
 Ha trabajado con los tipos de datos de lista, tupla y diccionario en Python.
 
-#Lab. #5: Clasificación de valores
+# Lab. #5: Clasificación de valores
 
 Con Python, puede mezclar tipos en una lista. En este laboratorio, creará una lista con diferentes tipos e imprimirá los valores.
 
@@ -287,7 +287,7 @@ En este laboratorio, deberá realizar lo siguiente:
     utilizar la instrucción else
     utilizar la instrucción import
 
-# Creación de datos de un inventario de vehículos
+# Ejercicio 1: Creación de datos de un inventario de vehículos
 
 Valores separados por comas (CSV) es un formato de archivo que se utiliza para almacenar datos tabulares, como los datos de una hoja de cálculo. Trabajará con el archivo CSV del siguiente bloque.
 
@@ -301,8 +301,8 @@ Copie y pegue el siguiente bloque de texto en el archivo car_fleet.csv y guarde 
     TMX20121,AnyCompany Motors, SUV, 2012, 295, 155, 4.7, 100000
     TMX20204,AnyCompany Motors, Truck, 2020, 300, 155, 3.5, 0
 
-Creación de un programa de inventario de vehículos
-# Definición del diccionario
+# Ejercicio 2: Creación de un programa de inventario de vehículos
+*Definición del diccionario
 
 Leerá el archivo a través de un módulo denominado csv. Además, realizará una copia profunda de los datos para almacenarlos en la memoria mediante un módulo denominado copy.
 
@@ -335,7 +335,7 @@ Defina una lista vacía para almacenar el inventario de vehículos que leerá:
 
     myInventoryList = []
 
-# Copia del archivo CSV en memoria
+*Copia del archivo CSV en memoria
 
 Leerá los datos del disco (disco duro) y realizará una copia en memoria (memoria de acceso aleatorio o RAM). En una computadora, se utiliza un disco duro para almacenar los datos a largo plazo, incluso cuando se apaga la alimentación. La sigla RAM hace referencia a la memoria temporal, que es más rápida, pero se borra cuando se apaga la alimentación de la computadora.
 
