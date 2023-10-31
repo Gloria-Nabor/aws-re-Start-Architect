@@ -559,4 +559,5 @@ Aquí hay una explicación de lo que sucedió en esas dos líneas. La instrucci�
 ¡Felicitaciones! Ha trabajado con los bucles while y for en Python.
 
 # Files: 
-    *    program-3.py y for-loop.py
+    *    program-3.py 
+    *    for-loop.py
