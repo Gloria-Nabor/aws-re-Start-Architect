@@ -79,7 +79,7 @@ Edición de un archivo en Python
 
 En vez de escribir los comandos uno por uno en el shell de Python, editará un archivo de texto que contiene una secuencia de comandos.
   
-# Creación de una variable
+*Creación de una variable
 
 Una variable es como una caja etiquetada que almacena información. Puede cambiar el contenido de la caja, pero la etiqueta seguirá siendo la misma. En esta actividad, utilizará el nombre de variable myValue, pero almacenará diferentes tipos de datos en esa caja etiquetada.
 
@@ -180,11 +180,11 @@ En este laboratorio, deberá realizar lo siguiente:
 # Ejercicio 1: Presentar el tipo de dato de lista
 Acceso al IDE de AWS Cloud9
 
-# Definición de una lista
+*Definición de una lista
 
 En esta actividad, editará un script en Python para almacenar una colección de nombres de frutas o una lista.
 
-# Acceso a una lista por posición
+*Acceso a una lista por posición
 
 En los lenguajes de programación, el posicionamiento en una lista comienza en el cero (0). Los corchetes indican a Python qué posición en la lista desea. Para acceder a la cadena apple, escriba el siguiente código:
 Puede acceder al contenido de una lista por su posición. En esta actividad, mostrará cada elemento de nuestra lista por su posición.
@@ -198,16 +198,16 @@ Los valores de una lista se pueden cambiar. En esta actividad, cambiará cherry 
 
 # Ejercicio 2: Presentar el tipo de dato de tupla
 
-# Definición de una tupla
+*Definición de una tupla
 Una tupla es similar a una lista, pero no se puede cambiar. Un tipo de dato que no se puede cambiar después de su creación se conoce como inmutable. Para definir una tupla, se utilizan paréntesis en lugar de corchetes ([]).
 
-# Cree una tupla escribiendo el siguiente código:
+*Cree una tupla escribiendo el siguiente código:
     
     myFinalAnswerTuple = ("apple", "banana", "pineapple")
     print(myFinalAnswerTuple)
     print(type(myFinalAnswerTuple))
 
-# Acceso a una tupla por posición
+*Acceso a una tupla por posición
 
 Al igual que con una lista, también se puede acceder a los elementos de una tupla por su posición:
 
@@ -215,7 +215,7 @@ Al igual que con una lista, también se puede acceder a los elementos de una tup
 
 # Ejercicio 3: Presentar el tipo de dato de diccionario
 
-# Definición de un diccionario. 
+*Definición de un diccionario. 
 Un diccionario es una lista cuyas posiciones tienen nombres asignados (claves). Imagine que su lista muestra la fruta favorita de distintas personas.
 
 Regrese al script en Python y escriba el siguiente código:
@@ -479,7 +479,7 @@ Utilice la función print() para informar al usuario acerca del juego:
     print("Welcome to Guess the Number!")
     print("The rules are simple. I will think of a number, and you will try to guess it.")
 
-# Importación aleatoria y escritura de un bucle while
+*Importación aleatoria y escritura de un bucle while
 
 Utilizará el comando import para incluir el código que escribió otra persona. Hasta ahora, ha utilizado funciones integradas. Recuerde que una función es un fragmento de código reutilizable.
 
@@ -488,7 +488,7 @@ Utilizará el comando import para incluir el código que escribió otra persona.
   
   Nota: Las instrucciones import se colocan al inicio del script por convención.
 
-# import random
+*import random
 
 Coloque el cursor en la línea siguiente a la segunda instrucción print(). Luego, escriba una instrucción que generará un número aleatorio entre 1 y 10 mediante el uso de la función randint() del módulo random.
 
@@ -498,7 +498,7 @@ Monitoree si el usuario adivinó su número con la creación de una variable lla
 
     isGuessRight = False
 
-  #  Para gestionar la lógica del juego, cree un bucle while:
+*Para gestionar la lógica del juego, cree un bucle while:
 
     while isGuessRight != True:
         guess = input("Guess a number between 1 and 10: ")
@@ -510,7 +510,7 @@ Monitoree si el usuario adivinó su número con la creación de una variable lla
 
    Nota: El bucle while repetirá el código dentro del bucle hasta que se adivine el número correcto, lo que está representado por la condición isGuessRight != True en el código. Además, Python utiliza la sangría con espacios para determinar los bloques lógicos, es decir, qué instrucciones se consideran parte del bucle while. Puede poner sangría en una línea si coloca el cursor junto a una instrucción y presiona TAB.
 
-# Escritura de un pseudocódigo
+*Escritura de un pseudocódigo
 
 Antes de ejecutar el script en Python, describa la lógica del bucle while en oraciones escritas (sin código). Esta técnica se denomina pseudocodificación.
 
@@ -526,11 +526,11 @@ Por ejemplo:
 
     Si no ha adivinado el número, indique al usuario que fue una suposición incorrecta y continúe con el bucle.
 
-# Ejecución del script
+*Ejecución del script
 
 Ahora ejecute el script en Python y compruebe si funciona.
 
-# Adición de comentarios
+*Adición de comentarios
 
 Es útil escribir comentarios en el código. Python ignora las líneas de comentarios y comienza con un signo numeral (#). En la mayoría de los teclados, puede crear este símbolo si presiona MAYÚS+3. Agregue sus propios comentarios para que lo ayuden a recordar qué hace el código.
 Informe al usuario sobre el script
@@ -539,7 +539,7 @@ Informe al usuario sobre el script
 
     print("Count to 10!")
 
-# Escritura del bucle for
+*Escritura del bucle for
 
 En Python, puede incluir una gran cantidad de funcionalidad en pocas palabras. Esta característica hace que Python sea relativamente fácil de escribir en comparación con otros lenguajes de programación, pero también puede hacer que el código Python sea más difícil de leer. En esta actividad, utilizará la instrucción for, pero también dedicará un poco de tiempo analizándola después de verla en acción.
 
