@@ -378,7 +378,7 @@ Impresión del inventario de vehículos
 
 Finalizará el script de Python mostrando el inventario de automóviles de la variable myInventoryList.
 
-    Regrese al script en Python y escriba el siguiente código:
+Regrese al script en Python y escriba el siguiente código:
     
     for myCarProperties in myInventoryList:
         for key, value in myCarProperties.items():
@@ -420,7 +420,7 @@ Las instrucciones de una declaración if deben mantener una sangría de un tabul
 
 Para mejorar el servicio de atención al cliente, sería una buena idea proporcionar una respuesta, incluso cuando el usuario no desee enviar un paquete. En este ejercicio, mejorará el script de Python mediante la instrucción else:
 
-    Ante la condición de que el usuario no desea enviar un paquete, se utiliza la instrucción else:
+Ante la condición de que el usuario no desea enviar un paquete, se utiliza la instrucción else:
 
     else:
         print("Please come back when you need to ship a package. Thank you.")
@@ -444,7 +444,7 @@ En el script de Python, escriba el siguiente código:
     else:
         print("Thank you, please come again.")
 
-# Nota: Las instrucciones if, elif y else permiten que se ejecute solo una ruta a la vez. El programa no comprueba las demás instrucciones luego de encontrar una condición que es verdadera.
+Nota: Las instrucciones if, elif y else permiten que se ejecute solo una ruta a la vez. El programa no comprueba las demás instrucciones luego de encontrar una condición que es verdadera.
 
 Como puede ver, cada vez que se ha utilizado el programa se han obtenido resultados ligeramente diferentes. Estas diferencias demuestran el poder de los condicionales.
 Ha escrito un script de Python que utiliza las instrucciones if, elif y else.
