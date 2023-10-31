@@ -26,11 +26,11 @@ El sitio web python.org contiene los instaladores y la documentación general so
 
 La mayoría de los sistemas ya tendrán una o más versiones de Python instaladas, con Python versión 2.7 como la predeterminada.
 
-    Para confirmar la versión predeterminada de Python que está instalada en su laboratorio, en la pestaña del terminal abierta, escriba lo siguiente:
+Para confirmar la versión predeterminada de Python que está instalada en su laboratorio, en la pestaña del terminal abierta, escriba lo siguiente:
 
     python --version
 
-    Para comprobar cuáles son las demás versiones disponibles de Python, escriba los siguientes comandos:
+Para comprobar cuáles son las demás versiones disponibles de Python, escriba los siguientes comandos:
 
     python2 --version
     python3 --version
@@ -57,6 +57,7 @@ En la pestaña del terminal, se puede iniciar un shell de Python escribiendo el 
 
 Los tres símbolos para “mayor que” (>>>) representan el símbolo del sistema donde el usuario puede escribir comandos de Python. En las siguientes actividades, practicará el uso del shell de Python mediante algunos comandos numéricos.
 Escriba la siguiente entrada:
+
       *    Adición            2 + 2
       *    Sustracción        4 - 2
       *    Multiplicación     2 * 2
@@ -118,11 +119,11 @@ Se denomina script a un archivo de texto que contiene una secuencia lógica de c
 
 En el archivo, escriba el siguiente código:
 
-    Amplíe el script de Python con la función integrada type() para obtener el tipo de dato de la variable. 
+Amplíe el script de Python con la función integrada type() para obtener el tipo de dato de la variable. 
     
     Escriba el siguiente código: print(type(myString))
 
-    Para convertir el valor de retorno del tipo en una cadena, utilice la función integrada str():
+Para convertir el valor de retorno del tipo en una cadena, utilice la función integrada str():
 
     print(myString + " is of the data type " + str(type(myString)))
 
@@ -200,13 +201,13 @@ Los valores de una lista se pueden cambiar. En esta actividad, cambiará cherry 
 # Definición de una tupla
 Una tupla es similar a una lista, pero no se puede cambiar. Un tipo de dato que no se puede cambiar después de su creación se conoce como inmutable. Para definir una tupla, se utilizan paréntesis en lugar de corchetes ([]).
 
-    # Cree una tupla escribiendo el siguiente código:
+# Cree una tupla escribiendo el siguiente código:
     
     myFinalAnswerTuple = ("apple", "banana", "pineapple")
     print(myFinalAnswerTuple)
     print(type(myFinalAnswerTuple))
 
-    # Acceso a una tupla por posición
+# Acceso a una tupla por posición
 
 Al igual que con una lista, también se puede acceder a los elementos de una tupla por su posición:
 
@@ -224,6 +225,7 @@ Regrese al script en Python y escriba el siguiente código:
       "Saanvi" : "banana",
       "Paulo" : "pineapple"
     }
+    
     Utilice la función print() para escribir el diccionario en el shell: print(myFavoriteFruitDictionary)
 
     Utilice la función type() para escribir el tipo de dato en el shell: print(type(myFavoriteFruitDictionary))
@@ -256,10 +258,10 @@ Puede mezclar tipos de datos en una lista de Python. En otros lenguajes, esta ca
 
 Defina una lista con diferentes tipos, como el siguiente ejemplo: myMixedTypeList = [45, 290578, 1.02, True, "My dog is on the bed.", "45"]
 
-    Utilice una instrucción de bucle for para recorrer la lista e imprimir el tipo de dato de cada elemento en ella:
+Utilice una instrucción de bucle for para recorrer la lista e imprimir el tipo de dato de cada elemento en ella:
 
-for item in myMixedTypeList:
-    print("{} is of the data type {}".format(item,type(item)))
+    for item in myMixedTypeList:
+        print("{} is of the data type {}".format(item,type(item)))
 
 Este ejercicio reforzó los conceptos de programación de Python que se abordan en los laboratorios 1 a 6. Aunque el código solo tiene unas pocas líneas, es muy eficaz. Dedique un momento a revisarlo y asegúrese de comprender todo lo que sucede en él.
 
@@ -318,16 +320,16 @@ Primero, importe los módulos que utilizará:
         "mileage" : 0
     }
 
-    Utilizará un bucle for para recorrer las claves y valores del diccionario.
+Utilizará un bucle for para recorrer las claves y valores del diccionario.
 
-for key, value in myVehicle.items():
-    print("{} : {}".format(key,value))
+    for key, value in myVehicle.items():
+        print("{} : {}".format(key,value))
 
     Nota: La función items () pertenece al tipo de datos de diccionario. La función items() indica al bucle for que recorra la colección que pertenece al tipo de datos de diccionario.
 
-    Defina una lista vacía para almacenar el inventario de vehículos que leerá:
+Defina una lista vacía para almacenar el inventario de vehículos que leerá:
 
-myInventoryList = []
+    myInventoryList = []
 
 # Copia del archivo CSV en memoria
 
@@ -400,17 +402,19 @@ En este laboratorio, deberá realizar lo siguiente:
 
 En este ejercicio, deberá editar un script de Python para hacer envíos de paquetes.
 
-    Utilice la función input() para obtener información del usuario: 
+Utilice la función input() para obtener información del usuario: 
+
     userReply = input("Do you need to ship a package? (Enter yes or no) ")
 
-    Utilice la instrucción if para mostrar una respuesta.
+Utilice la instrucción if para mostrar una respuesta.
 
 Las instrucciones de una declaración if deben mantener una sangría de un tabulador, debajo de la instrucción if. En otros lenguajes de programación, a menudo se utilizan corchetes ({}) para indicar el inicio y el final de un bloque lógico, pero Python utiliza espaciado:
 
     if userReply == "yes":
         print("We can help you ship that package!")
 
-# Nota: El símbolo == es un operador de comparación. Significa es igual a.
+    
+    Nota: El símbolo == es un operador de comparación. Significa es igual a.
 
 # Ejercicio 2: Trabajo con la instrucción else
 
@@ -425,9 +429,9 @@ Para mejorar el servicio de atención al cliente, sería una buena idea proporci
 
 En este ejercicio, mejorará el script de Python ofreciendo al usuario servicios adicionales. Cuando tenga varias condiciones, puede utilizar la instrucción elif, que es la abreviatura de else-if.
 
- # Nota: La instrucción elif siempre va después de la instrucción if y antes de la instrucción else.
+     Nota: La instrucción elif siempre va después de la instrucción if y antes de la instrucción else.
 
-    En el script de Python, escriba el siguiente código:
+En el script de Python, escriba el siguiente código:
 
     userReply = input("Would you like to buy stamps, buy an envelope, or make a copy? (Enter stamps, envelope, or copy) ")
     if userReply == "stamps":
@@ -459,10 +463,10 @@ En este laboratorio, deberá realizar lo siguiente:
 Un bucle while hace que una sección del código se repita hasta que se cumpla una determinada condición. En este ejercicio, creará un script en Python que pedirá al usuario adivinar un número.
 Impresión de las reglas del juego
 
-    Utilice la función print() para informar al usuario acerca del juego:
-
-print("Welcome to Guess the Number!")
-print("The rules are simple. I will think of a number, and you will try to guess it.")
+Utilice la función print() para informar al usuario acerca del juego:
+    
+    print("Welcome to Guess the Number!")
+    print("The rules are simple. I will think of a number, and you will try to guess it.")
 
 # Importación aleatoria y escritura de un bucle while
 
@@ -470,17 +474,18 @@ Utilizará el comando import para incluir el código que escribió otra persona.
 
     Al inicio del archivo, incluya el módulo de Python (que es un tipo de biblioteca) llamado random.
 
-  #  Nota: Las instrucciones import se colocan al inicio del script por convención.
+  
+  Nota: Las instrucciones import se colocan al inicio del script por convención.
 
 # import random
 
-    Coloque el cursor en la línea siguiente a la segunda instrucción print(). Luego, escriba una instrucción que generará un número aleatorio entre 1 y 10 mediante el uso de la función randint() del módulo random.
+Coloque el cursor en la línea siguiente a la segunda instrucción print(). Luego, escriba una instrucción que generará un número aleatorio entre 1 y 10 mediante el uso de la función randint() del módulo random.
 
-number = random.randint(1,10)
+    number = random.randint(1,10)
 
-    Monitoree si el usuario adivinó su número con la creación de una variable llamada isGuessRight:
+Monitoree si el usuario adivinó su número con la creación de una variable llamada isGuessRight:
 
-isGuessRight = False
+    isGuessRight = False
 
   #  Para gestionar la lógica del juego, cree un bucle while:
 
@@ -492,7 +497,7 @@ isGuessRight = False
         else:
             print("You guessed {}. Sorry, that isn’t it. Try again.".format(guess))
 
-   # Nota: El bucle while repetirá el código dentro del bucle hasta que se adivine el número correcto, lo que está representado por la condición isGuessRight != True en el código. Además, Python utiliza la sangría con espacios para determinar los bloques lógicos, es decir, qué instrucciones se consideran parte del bucle while. Puede poner sangría en una línea si coloca el cursor junto a una instrucción y presiona TAB.
+   Nota: El bucle while repetirá el código dentro del bucle hasta que se adivine el número correcto, lo que está representado por la condición isGuessRight != True en el código. Además, Python utiliza la sangría con espacios para determinar los bloques lógicos, es decir, qué instrucciones se consideran parte del bucle while. Puede poner sangría en una línea si coloca el cursor junto a una instrucción y presiona TAB.
 
 # Escritura de un pseudocódigo
 
@@ -529,7 +534,7 @@ En Python, puede incluir una gran cantidad de funcionalidad en pocas palabras. E
 
     Regrese al script en Python. Para contar hasta 10, escriba el siguiente código.
 
-  #  Nota: Python utiliza la sangría para determinar que la instrucción print está dentro de la instrucción del bucle for:
+    Nota: Python utiliza la sangría para determinar que la instrucción print está dentro de la instrucción del bucle for:
 
     for x in range (0, 11):
         print(x)
