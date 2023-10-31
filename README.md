@@ -28,12 +28,12 @@ La mayoría de los sistemas ya tendrán una o más versiones de Python instalada
 
     Para confirmar la versión predeterminada de Python que está instalada en su laboratorio, en la pestaña del terminal abierta, escriba lo siguiente:
 
-python --version
+    python --version
 
     Para comprobar cuáles son las demás versiones disponibles de Python, escriba los siguientes comandos:
 
-python2 --version
-python3 --version
+    python2 --version
+    python3 --version
 
 # Ejercicio 2: Escribir su primer programa en Python
 
@@ -53,16 +53,14 @@ En este laboratorio, deberá realizar lo siguiente:
 
 # Ejercicio 1: Utilizar el shell de Python
 
-En la pestaña del terminal, se puede iniciar un shell de Python escribiendo el siguiente comando:
-
-# python3                                       
+En la pestaña del terminal, se puede iniciar un shell de Python escribiendo el siguiente comando: python3                                       
 
 Los tres símbolos para “mayor que” (>>>) representan el símbolo del sistema donde el usuario puede escribir comandos de Python. En las siguientes actividades, practicará el uso del shell de Python mediante algunos comandos numéricos.
 Escriba la siguiente entrada:
-  # Adición            2 + 2
-  # Sustracción        4 - 2
-  # Multiplicación     2 * 2
-  # División           4 / 2
+      *    Adición            2 + 2
+      *    Sustracción        4 - 2
+      *    Multiplicación     2 * 2
+      *    División           4 / 2
 
 Para salir del shell de Python, escriba el siguiente comando: quit()
 
@@ -120,49 +118,49 @@ Se denomina script a un archivo de texto que contiene una secuencia lógica de c
 
 En el archivo, escriba el siguiente código:
 
-    Amplíe el script de Python con la función integrada type() para obtener el tipo de dato de la variable. Escriba el siguiente código:
-
-print(type(myString))
+    Amplíe el script de Python con la función integrada type() para obtener el tipo de dato de la variable. 
+    
+    Escriba el siguiente código: print(type(myString))
 
     Para convertir el valor de retorno del tipo en una cadena, utilice la función integrada str():
 
-print(myString + " is of the data type " + str(type(myString)))
+    print(myString + " is of the data type " + str(type(myString)))
 
 # Ejercicio 2: Trabajar con concatenación de cadenas
 
 La concatenación de cadenas es el proceso por el cual se combinan dos cadenas para formar una sola. De hecho, ha estado realizando concatenaciones de cadenas desde el laboratorio 1. Sin embargo, simplemente no se refería a este proceso con ese término. El símbolo “+” se emplea para concatenar cadenas. Cuando se utiliza el símbolo “+” con cadenas, funciona de una forma distinta a cuando se utiliza con números. En el laboratorio 1, utilizó el signo más “+” para sumar números. Ahora, utilizará el signo más “+” para combinar o concatenar cadenas.
 
-      Cree dos cadenas y, luego, concaténelas escribiendo el siguiente código:
+Cree dos cadenas y, luego, concaténelas escribiendo el siguiente código:
 
-firstString = "water"
-secondString = "fall"
-thirdString = firstString + secondString
-print(thirdString)
+    firstString = "water"
+    secondString = "fall"
+    thirdString = firstString + secondString
+    print(thirdString)
 
 # Ejercicio 3: Trabajar con cadenas de entrada
 
-En la codificación, la información que escribe un usuario se conoce como entrada. Utilizará una función integrada denominada input() para obtener información del usuario. La función input() detendrá el código hasta que un usuario escriba una cadena y presione ENTER (Intro). Regrese al script en Python:
+En la codificación, la información que escribe un usuario se conoce como entrada. Utilizará una función integrada denominada input() para obtener información del usuario. La función input() detendrá el código hasta que un usuario escriba una cadena y presione ENTER (Intro). 
 
-    Escriba el siguiente código:
+Regrese al script en Python y escriba el siguiente código:
 
-name = input("What is your name? ")
+    name = input("What is your name? ")
 
-    Utilice la función print() para escribir el valor de la variable en el shell:
+Utilice la función print() para escribir el valor de la variable en el shell:
 
-print(name)
+    print(name)
 
 # Ejercicio 4: Dar formato a las cadenas de salida
 
 Cuando un script busca comunicar información al usuario, se denomina salida. Ha estado utilizando la función print() para escribir la salida en el shell. Creará una encuesta y enviará la información recopilada de vuelta al usuario.
 
-    Regrese al script en Python y escriba el siguiente código:
+Regrese al script en Python y escriba el siguiente código:
 
-color = input("What is your favorite color?  ")
-animal = input("What is your favorite animal?  ")
+    color = input("What is your favorite color?  ")
+    animal = input("What is your favorite animal?  ")
 
-    Ha estado utilizando la función print() con una sola variable, pero también se puede usar con múltiples variables para dar formato a una cadena. Escriba el siguiente código:
+Ha estado utilizando la función print() con una sola variable, pero también se puede usar con múltiples variables para dar formato a una cadena. Escriba el siguiente código:
 
-print("{}, you like a {} {}!".format(name,color,animal))
+    print("{}, you like a {} {}!".format(name,color,animal))
 
 La instrucción final print() utiliza la función format(). En la función format(), las llaves de apertura y cierre “{}” actúan como marcadores de posición para las variables que se transmitirán, es decir, se ubicarán entre los paréntesis de la función.
 
@@ -194,7 +192,8 @@ Para acceder a la cadena cherry, escriba el siguiente código: print(myFruitList
 
 Los valores de una lista se pueden cambiar. En esta actividad, cambiará cherry por orange.
 
-    En Python, el posicionamiento en la lista comienza en cero (0), por lo que tiene que utilizar el número 2 para acceder a la tercera posición. Escriba el siguiente código: myFruitList[2] = "orange"
+    En Python, el posicionamiento en la lista comienza en cero (0), por lo que tiene que utilizar el número 2 para acceder a la tercera posición. 
+    Escriba el siguiente código: myFruitList[2] = "orange"
 
 # Ejercicio 2: Presentar el tipo de dato de tupla
 
@@ -202,10 +201,10 @@ Los valores de una lista se pueden cambiar. En esta actividad, cambiará cherry 
 Una tupla es similar a una lista, pero no se puede cambiar. Un tipo de dato que no se puede cambiar después de su creación se conoce como inmutable. Para definir una tupla, se utilizan paréntesis en lugar de corchetes ([]).
 
     # Cree una tupla escribiendo el siguiente código:
-
-myFinalAnswerTuple = ("apple", "banana", "pineapple")
-print(myFinalAnswerTuple)
-print(type(myFinalAnswerTuple))
+    
+    myFinalAnswerTuple = ("apple", "banana", "pineapple")
+    print(myFinalAnswerTuple)
+    print(type(myFinalAnswerTuple))
 
     # Acceso a una tupla por posición
 
@@ -218,13 +217,13 @@ Al igual que con una lista, también se puede acceder a los elementos de una tup
 # Definición de un diccionario. 
 Un diccionario es una lista cuyas posiciones tienen nombres asignados (claves). Imagine que su lista muestra la fruta favorita de distintas personas.
 
-    Regrese al script en Python y escriba el siguiente código:
+Regrese al script en Python y escriba el siguiente código:
 
-myFavoriteFruitDictionary = {
-  "Akua" : "apple",
-  "Saanvi" : "banana",
-  "Paulo" : "pineapple"
-}
+    myFavoriteFruitDictionary = {
+      "Akua" : "apple",
+      "Saanvi" : "banana",
+      "Paulo" : "pineapple"
+    }
     Utilice la función print() para escribir el diccionario en el shell: print(myFavoriteFruitDictionary)
 
     Utilice la función type() para escribir el tipo de dato en el shell: print(type(myFavoriteFruitDictionary))
@@ -235,7 +234,7 @@ En esta actividad, en lugar de utilizar números, recurrirá al nombre de las pe
 
     Para acceder a la fruta favorita de Akua, escriba el siguiente código:
 
-print(myFavoriteFruitDictionary["Akua"])
+    print(myFavoriteFruitDictionary["Akua"])
 
 Ha trabajado con los tipos de datos de lista, tupla y diccionario en Python.
 
@@ -288,13 +287,13 @@ Valores separados por comas (CSV) es un formato de archivo que se utiliza para a
 
 Crea y guarde el archivo como car_fleet.csv.
 
-    Copie y pegue el siguiente bloque de texto en el archivo car_fleet.csv y guarde el archivo.
+Copie y pegue el siguiente bloque de texto en el archivo car_fleet.csv y guarde el archivo.
 
-vin,make,model,year,range,topSpeed,zeroSixty,mileage
-TMX20122,AnyCompany Motors, Coupe, 2012, 335, 155, 4.1, 50000
-TM320163,AnyCompany Motors, Sedan, 2016, 240, 140, 5.2, 20000
-TMX20121,AnyCompany Motors, SUV, 2012, 295, 155, 4.7, 100000
-TMX20204,AnyCompany Motors, Truck, 2020, 300, 155, 3.5, 0
+    vin,make,model,year,range,topSpeed,zeroSixty,mileage
+    TMX20122,AnyCompany Motors, Coupe, 2012, 335, 155, 4.1, 50000
+    TM320163,AnyCompany Motors, Sedan, 2016, 240, 140, 5.2, 20000
+    TMX20121,AnyCompany Motors, SUV, 2012, 295, 155, 4.7, 100000
+    TMX20204,AnyCompany Motors, Truck, 2020, 300, 155, 3.5, 0
 
 Creación de un programa de inventario de vehículos
 # Definición del diccionario
@@ -303,21 +302,21 @@ Leerá el archivo a través de un módulo denominado csv. Además, realizará un
 
 Primero, importe los módulos que utilizará:
 
-import csv
-import copy
+    import csv
+    import copy
 
     A continuación, defina el diccionario que funcionará como tipo compuesto para leer los datos tabulares:
 
-myVehicle = {
-    "vin" : "<empty>",
-    "make" : "<empty>" ,
-    "model" : "<empty>" ,
-    "year" : 0,
-    "range" : 0,
-    "topSpeed" : 0,
-    "zeroSixty" : 0.0,
-    "mileage" : 0
-}
+    myVehicle = {
+        "vin" : "<empty>",
+        "make" : "<empty>" ,
+        "model" : "<empty>" ,
+        "year" : 0,
+        "range" : 0,
+        "topSpeed" : 0,
+        "zeroSixty" : 0.0,
+        "mileage" : 0
+    }
 
     Utilizará un bucle for para recorrer las claves y valores del diccionario.
 
@@ -344,33 +343,33 @@ Debería estar familiarizado con la mayor parte del resto del código.
 
 Ahora, regrese al archivo en Python y escriba el siguiente código:
 
-with open('car_fleet.csv') as csvFile:
-    csvReader = csv.reader(csvFile, delimiter=',')  
-    lineCount = 0  
-    for row in csvReader:
-        if lineCount == 0:
-            print(f'Column names are: {", ".join(row)}')  
-            lineCount += 1  
-        else:  
-            print(f'vin: {row[0]} make: {row[1]}, model: {row[2]}, year: {row[3]}, range: {row[4]}, topSpeed: {row[5]}, zeroSixty: {row[6]}, mileage: {row[7]}')  
-            currentVehicle = copy.deepcopy(myVehicle)  
-            currentVehicle["vin"] = row[0]  
-            currentVehicle["make"] = row[1]  
-            currentVehicle["model"] = row[2]  
-            currentVehicle["year"] = row[3]  
-            currentVehicle["range"] = row[4]  
-            currentVehicle["topSpeed"] = row[5]  
-            currentVehicle["zeroSixty"] = row[6]  
-            currentVehicle["mileage"] = row[7]  
-            myInventoryList.append(currentVehicle)  
-            lineCount += 1  
-    print(f'Processed {lineCount} lines.')
+    with open('car_fleet.csv') as csvFile:
+        csvReader = csv.reader(csvFile, delimiter=',')  
+        lineCount = 0  
+        for row in csvReader:
+            if lineCount == 0:
+                print(f'Column names are: {", ".join(row)}')  
+                lineCount += 1  
+            else:  
+                print(f'vin: {row[0]} make: {row[1]}, model: {row[2]}, year: {row[3]}, range: {row[4]}, topSpeed: {row[5]}, zeroSixty: {row[6]}, mileage: {row[7]}')  
+                currentVehicle = copy.deepcopy(myVehicle)  
+                currentVehicle["vin"] = row[0]  
+                currentVehicle["make"] = row[1]  
+                currentVehicle["model"] = row[2]  
+                currentVehicle["year"] = row[3]  
+                currentVehicle["range"] = row[4]  
+                currentVehicle["topSpeed"] = row[5]  
+                currentVehicle["zeroSixty"] = row[6]  
+                currentVehicle["mileage"] = row[7]  
+                myInventoryList.append(currentVehicle)  
+                lineCount += 1  
+        print(f'Processed {lineCount} lines.')
 
 Aunque este código parece una gran cantidad de código para procesar, en su mayoría comprende instrucciones que vio en laboratorios anteriores. Contiene un bucle for con una instrucción if-else, seguido de una instrucción print() al final.
 
 Sin embargo, la siguiente línea necesita una explicación adicional:
 
-currentVehicle = copy.deepcopy(myVehicle)
+    currentVehicle = copy.deepcopy(myVehicle)
 
 De forma predeterminada, Python realiza una copia superficial de tipos de datos complejos. Una copia superficial hace referencia o apunta a la ubicación del almacenamiento de la variable de diccionario myVehicle. Sin esta línea, contaría solo con una única caja de almacenamiento y solo el último elemento de la lista se copiaría en memoria. Esta línea garantiza que se creen nuevas cajas de almacenamiento en memoria para almacenar los nuevos datos tabulares que se están leyendo.
 Impresión del inventario de vehículos
@@ -378,11 +377,11 @@ Impresión del inventario de vehículos
 Finalizará el script de Python mostrando el inventario de automóviles de la variable myInventoryList.
 
     Regrese al script en Python y escriba el siguiente código:
-
-for myCarProperties in myInventoryList:
-    for key, value in myCarProperties.items():
-        print("{} : {}".format(key,value))
-        print("-----")
+    
+    for myCarProperties in myInventoryList:
+        for key, value in myCarProperties.items():
+            print("{} : {}".format(key,value))
+            print("-----")
         
 Revise una vez más el código que lee los datos tabulares del archivo CSV. Comprender esta sección del código es fundamental para este ejercicio.
 Ha trabajado con tipos de datos compuestos en Python.
@@ -402,14 +401,14 @@ En este laboratorio, deberá realizar lo siguiente:
 En este ejercicio, deberá editar un script de Python para hacer envíos de paquetes.
 
     Utilice la función input() para obtener información del usuario: 
-userReply = input("Do you need to ship a package? (Enter yes or no) ")
+    userReply = input("Do you need to ship a package? (Enter yes or no) ")
 
     Utilice la instrucción if para mostrar una respuesta.
 
 Las instrucciones de una declaración if deben mantener una sangría de un tabulador, debajo de la instrucción if. En otros lenguajes de programación, a menudo se utilizan corchetes ({}) para indicar el inicio y el final de un bloque lógico, pero Python utiliza espaciado:
 
-if userReply == "yes":
-    print("We can help you ship that package!")
+    if userReply == "yes":
+        print("We can help you ship that package!")
 
 # Nota: El símbolo == es un operador de comparación. Significa es igual a.
 
@@ -419,8 +418,8 @@ Para mejorar el servicio de atención al cliente, sería una buena idea proporci
 
     Ante la condición de que el usuario no desea enviar un paquete, se utiliza la instrucción else:
 
-else:
-    print("Please come back when you need to ship a package. Thank you.")
+    else:
+        print("Please come back when you need to ship a package. Thank you.")
 
 # Ejercicio 3: Trabajo con la instrucción elif
 
@@ -430,16 +429,16 @@ En este ejercicio, mejorará el script de Python ofreciendo al usuario servicios
 
     En el script de Python, escriba el siguiente código:
 
-userReply = input("Would you like to buy stamps, buy an envelope, or make a copy? (Enter stamps, envelope, or copy) ")
-if userReply == "stamps":
-    print("We have many stamp designs to choose from.")
-elif userReply == "envelope":
-    print("We have many envelope sizes to choose from.")
-elif userReply == "copy":
-    copies = input("How many copies would you like? (Enter a number) ")
-    print("Here are {} copies.".format(copies))
-else:
-    print("Thank you, please come again.")
+    userReply = input("Would you like to buy stamps, buy an envelope, or make a copy? (Enter stamps, envelope, or copy) ")
+    if userReply == "stamps":
+        print("We have many stamp designs to choose from.")
+    elif userReply == "envelope":
+        print("We have many envelope sizes to choose from.")
+    elif userReply == "copy":
+        copies = input("How many copies would you like? (Enter a number) ")
+        print("Here are {} copies.".format(copies))
+    else:
+        print("Thank you, please come again.")
 
 # Nota: Las instrucciones if, elif y else permiten que se ejecute solo una ruta a la vez. El programa no comprueba las demás instrucciones luego de encontrar una condición que es verdadera.
 
@@ -485,13 +484,13 @@ isGuessRight = False
 
   #  Para gestionar la lógica del juego, cree un bucle while:
 
-while isGuessRight != True:
-    guess = input("Guess a number between 1 and 10: ")
-    if int(guess) == number:
-        print("You guessed {}. That is correct! You win!".format(guess))
-        isGuessRight = True
-    else:
-        print("You guessed {}. Sorry, that isn’t it. Try again.".format(guess))
+    while isGuessRight != True:
+        guess = input("Guess a number between 1 and 10: ")
+        if int(guess) == number:
+            print("You guessed {}. That is correct! You win!".format(guess))
+            isGuessRight = True
+        else:
+            print("You guessed {}. Sorry, that isn’t it. Try again.".format(guess))
 
    # Nota: El bucle while repetirá el código dentro del bucle hasta que se adivine el número correcto, lo que está representado por la condición isGuessRight != True en el código. Además, Python utiliza la sangría con espacios para determinar los bloques lógicos, es decir, qué instrucciones se consideran parte del bucle while. Puede poner sangría en una línea si coloca el cursor junto a una instrucción y presiona TAB.
 
@@ -522,7 +521,7 @@ Informe al usuario sobre el script
 
     Utilice la función print() para informar al usuario sobre lo que hace el script:
 
-print("Count to 10!")
+    print("Count to 10!")
 
 # Escritura del bucle for
 
@@ -532,12 +531,12 @@ En Python, puede incluir una gran cantidad de funcionalidad en pocas palabras. E
 
   #  Nota: Python utiliza la sangría para determinar que la instrucción print está dentro de la instrucción del bucle for:
 
-for x in range (0, 11):
-    print(x)
+    for x in range (0, 11):
+        print(x)
 
-    Guarde y ejecute el archivo.
+Guarde y ejecute el archivo.
 
-    Confirme que el script se ejecuta de forma correcta y que la salida se muestra según lo previsto.
+Confirme que el script se ejecuta de forma correcta y que la salida se muestra según lo previsto.
 
 Aquí hay una explicación de lo que sucedió en esas dos líneas. La instrucción for utiliza las palabras clave for … in para indicar a la computadora que recorra la lista. La función range() genera una lista. La función range() toma un número inicial y un número final, pero el número final no está incluido. Por lo tanto, pasa 11 para que la función deje de contar en 10. La letra x actúa como una variable. Cada vez que se ejecuta el bucle, la variable x se asigna a la siguiente variable en el bucle y se muestra en la pantalla.
 
