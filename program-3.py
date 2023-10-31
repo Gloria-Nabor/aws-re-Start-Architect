@@ -1,7 +1,11 @@
-# Trabajo con un bucle while
+"""Lab #8"""
+# Trabajando con un bucle while
+
+# Impresión de las reglas del juego
 print("Welcome to Guess the Number!")
 print("The rules are simple. I will think of a number, and you will try to guess it.")
 
+# Importación aleatoria y escritura de un bucle while
 import random
 
 number = random.randint(1,10)
